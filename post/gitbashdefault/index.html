@@ -49,7 +49,7 @@
 <meta itemprop="description" content="以前都是用CMD多点,最近Git Bash用的越来越多了就将Windows Terminal的默认终端换成Git Bash了,如果还没用过这两个软">
 <meta itemprop="datePublished" content="2020-08-17T13:43:33+08:00" />
 <meta itemprop="dateModified" content="2020-08-17T13:43:33+08:00" />
-<meta itemprop="wordCount" content="740">
+<meta itemprop="wordCount" content="742">
 
 
 
@@ -128,7 +128,7 @@
       <div class="post-meta">
         <span class="post-time"> 2020-08-17 </span>
         
-          <span class="more-meta"> 740 words </span>
+          <span class="more-meta"> 742 words </span>
           <span class="more-meta"> 2 mins read </span>
         <span id="busuanzi_container_page_pv" class="more-meta"> <span id="busuanzi_value_page_pv"><img src="/img/spinner.svg" alt="spinner.svg"/></span> times read </span>
       </div>
@@ -141,9 +141,16 @@
   <ul>
     <li>
       <ul>
-        <li>
+        <li><a href="#准备工作">准备工作</a>
           <ul>
             <li></li>
+          </ul>
+        </li>
+        <li><a href="#生成guid">生成GUID</a></li>
+        <li><a href="#将git-bash添加进windows-terminal">将Git Bash添加进Windows Terminal</a></li>
+        <li><a href="#设置git-bash为默认终端">设置Git Bash为默认终端</a>
+          <ul>
+            <li><a href="#参考">参考</a></li>
           </ul>
         </li>
       </ul>
@@ -154,10 +161,10 @@
 </div>
     <div class="post-content">
       <p>以前都是用CMD多点,最近Git Bash用的越来越多了就将Windows Terminal的默认终端换成Git Bash了,如果还没用过这两个软件,这里推荐一下,在Windows下算是很好的的组合了(仰望用Linux和Mac的同学(..•˘_˘•..)</p>
-<h4 id="准备工作">准备工作</h4>
-<p><strong>Windows Terminal</strong></p>
+<h2 id="准备工作">准备工作</h2>
+<h4 id="windows-terminal"><strong>Windows Terminal</strong></h4>
 <p>可以直接在Microsoft Store中下载安装</p>
-<p><strong>Git Bash</strong> for Windows</p>
+<h4 id="git-bash-for-windows"><strong>Git Bash</strong> for Windows</h4>
 <p>下载安装之后需要添加环境变量(具体方法自行Google),完成后在CMD输入[git &ndash;version] ,得到的结果应该为git version 2.*,确认无误后再进行之后的操作</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
@@ -169,7 +176,7 @@
 <span class="n">git</span> <span class="n">version</span> <span class="n">2</span><span class="p">.</span><span class="n">27</span><span class="p">.</span><span class="n">0</span><span class="p">.</span><span class="n">windows</span><span class="p">.</span><span class="n">1</span>
 </code></pre></td></tr></table>
 </div>
-</div><h4 id="生成guid">生成GUID</h4>
+</div><h2 id="生成guid">生成GUID</h2>
 <blockquote>
 <p>什么是GUID?</p>
 <p>GUID是&quot;Globally Unique Identifier&quot;的首字母缩写,它是一个128位整,用于标识资源,GUID通常用于微软的产品,而其他地方通常会称做UUID(Universally unique identifier).</p>
@@ -196,7 +203,7 @@
 <span class="n">76b973f5-c6b2</span><span class="p">-</span><span class="n">4ed2-aab5</span><span class="p">-</span><span class="n">64c2401ddf65h</span>
 </code></pre></td></tr></table>
 </div>
-</div><h4 id="将git-bash添加进windows-terminal">将Git Bash添加进Windows Terminal</h4>
+</div><h2 id="将git-bash添加进windows-terminal">将Git Bash添加进Windows Terminal</h2>
 <p>打开Windows Terminal按下快捷键[<em>Ctrl+,</em>]在弹出的setting.json文件中找到list列表， 把以下配置添加上去，并把guid行花括号中的guid换成自己的</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
@@ -241,7 +248,7 @@
 </code></pre></td></tr></table>
 </div>
 </div><p>如果用CMD多点也可以按照以下方法设置CMD为默认终端</p>
-<h4 id="设置git-bash为默认终端">设置Git Bash为默认终端</h4>
+<h2 id="设置git-bash为默认终端">设置Git Bash为默认终端</h2>
 <p>在文件中找到defaultProfile并将defaultProfile花括号中的guid换成自己的</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
@@ -252,6 +259,7 @@
 </code></pre></td></tr></table>
 </div>
 </div><p>这时候关掉Windows Terminal再打开默认的已经是Git Bash了.</p>
+<h3 id="参考">参考</h3>
 <blockquote>
 <p><a href="https://stackoverflow.com/questions/56839307/adding-git-bash-to-the-new-windows-terminal">Adding Git-Bash to the new Windows Terminal</a></p>
 <p><a href="https://traviscolbert.net/blog/windows-terminal-generating-guids-for-your-profiles/">Windows Terminal: Generating GUIDs For Your Profiles</a></p>
