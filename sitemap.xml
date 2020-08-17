@@ -9,21 +9,28 @@
   </url>
   
   <url>
-    <loc>https://setsuta.github.io/post/markdown/</loc>
-    <lastmod>2020-08-17T00:51:54+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>https://setsuta.github.io/post/</loc>
-    <lastmod>2020-08-17T00:51:54+08:00</lastmod>
+    <lastmod>2020-08-17T13:43:33+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://setsuta.github.io/</loc>
+    <lastmod>2020-08-17T13:43:33+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://setsuta.github.io/post/gitbashdefault/</loc>
+    <lastmod>2020-08-17T13:43:33+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://setsuta.github.io/post/markdown/</loc>
     <lastmod>2020-08-17T00:51:54+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>

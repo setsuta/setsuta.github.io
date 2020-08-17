@@ -6,7 +6,7 @@
     <description>Recent content on The way</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 17 Aug 2020 00:51:54 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 17 Aug 2020 13:43:33 +0800</lastBuildDate>
     
 	<atom:link href="https://setsuta.github.io/index.xml" rel="self" type="application/rss+xml" />
     
@@ -20,6 +20,15 @@
       <description>Hugo is a static site engine written in Go.
 It makes use of a variety of open source projects including:
  Cobra Viper J Walter Weatherman Cast  Learn more and contribute on GitHub.</description>
+    </item>
+    
+    <item>
+      <title>设置Windows Terminal默认终端为Git Bash</title>
+      <link>https://setsuta.github.io/post/gitbashdefault/</link>
+      <pubDate>Mon, 17 Aug 2020 13:43:33 +0800</pubDate>
+      
+      <guid>https://setsuta.github.io/post/gitbashdefault/</guid>
+      <description>以前都是用CMD多点,最近Git Bash用的越来越多了就将Windows Terminal的默认终端换成Git Bash了,如果还没用过这两个软</description>
     </item>
     
     <item>

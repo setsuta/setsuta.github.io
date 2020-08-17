@@ -6,10 +6,19 @@
     <description>Recent content in Posts on The way</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 17 Aug 2020 00:51:54 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 17 Aug 2020 13:43:33 +0800</lastBuildDate>
     
 	<atom:link href="https://setsuta.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>设置Windows Terminal默认终端为Git Bash</title>
+      <link>https://setsuta.github.io/post/gitbashdefault/</link>
+      <pubDate>Mon, 17 Aug 2020 13:43:33 +0800</pubDate>
+      
+      <guid>https://setsuta.github.io/post/gitbashdefault/</guid>
+      <description>以前都是用CMD多点,最近Git Bash用的越来越多了就将Windows Terminal的默认终端换成Git Bash了,如果还没用过这两个软</description>
+    </item>
     
     <item>
       <title>Markdown语法记录</title>
